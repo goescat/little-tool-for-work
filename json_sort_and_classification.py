@@ -16,7 +16,7 @@ testcase_output = {}
 other_output = {}
 
 for key, value in dict_.iteritems():
-    # if a character is in a string.
+    # if a character in string.
     if "-" in key:
         testcase_output[key] = value
         # print output
